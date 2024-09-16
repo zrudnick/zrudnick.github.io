@@ -1,4 +1,4 @@
-## Hi there 👋
+Visit https://zrudnick.github.io/ to see my website!
 
 <!--
 **zrudnick/zrudnick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
