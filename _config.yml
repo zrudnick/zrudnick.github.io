@@ -10,7 +10,7 @@ linkedin_username: zoe-rudnick
 
 # Build settings
 markdown: kramdown
-theme: slate
+theme: minima
 permalink: /:year/:month/:day/:title/
 
 # Plugins
