@@ -1,15 +1,16 @@
 title: Zoe Catherine Rudnick
 email: zrudnic1@jh.edu
 description: >-
-  Biomedical Engineering PhD student working on algorithms for computational biology. Pertea Lab.
+  Biomedical Engineering PhD student working on computational genomics software.
+  Second year student in the Pertea Lab.
 baseurl: ""
 url: "https://zrudnick.github.io"
 github_username: zrudnick
-linkedin_username: zrudnick
+linkedin_username: zoe-rudnick
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: slate
 plugins:
   - jekyll-feed
   - jekyll-sitemap
