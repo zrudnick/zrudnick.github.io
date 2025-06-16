@@ -11,13 +11,33 @@ linkedin_username: zoe-rudnick
 # Build settings
 markdown: kramdown
 theme: slate
+permalink: /:year/:month/:day/:title/
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
-# Collections for organizing content
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Collections
 collections:
   projects:
     output: true
-    permalink: /:collection/:name/
+    permalink: /projects/:name/
+
+# Sass
+sass:
+  style: compressed
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
