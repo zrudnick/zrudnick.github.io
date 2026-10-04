@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoe Catherine Rudnick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <span class="brand">Zoe Catherine Rudnick</span>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</div>
+
+<section class="hero">
+  <h1>Zoe Catherine Rudnick</h1>
+  <p class="tagline">
+    <!-- TODO: one plain sentence stating what you do or work on, e.g.
+         "I build software for transcript quantification and genomic alignment analysis."
+         State it directly, no greeting needed. -->
+    A short statement about what you work on goes here.
+  </p>
+  <div class="btn-row">
+    <a class="btn primary" href="#projects">See my work</a>
+    <a class="btn secondary" href="#contact">Get in touch</a>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About</h2>
+  <p>
+    <!-- TODO: write a few sentences about your background, interests, and what you're currently
+         focused on. This is a good place to mention your field of study/work, and what kind
+         of problems you like working on. -->
+    Write a short bio here. Talk about your background, what you're currently working on,
+    and what motivates you.
+  </p>
+  <div class="placeholder-note">Placeholder — replace with your own bio.</div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>bramble 🌿🫐</h3>
+      <p>
+        A fast and versatile program that projects spliced genomic alignments into
+        transcriptomic space, enabling transcript quantification to work with genomic
+        alignments. Available as a C++ and Rust executable, and as a Rust library.
+      </p>
+      <div class="tags">
+        <span class="tag">C++</span>
+        <span class="tag">Rust</span>
+        <span class="tag">Bioinformatics</span>
+      </div>
+      <div class="links">
+        <a href="https://github.com/zrudnick/bramble">Code</a>
+        <!-- TODO: once the bramble docs site is live, link it here too -->
+        <a href="https://zrudnick.github.io/bramble/">Docs</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Next project</h3>
+      <p>
+        <!-- TODO: add your next project here, or delete this card -->
+        Short description of another project goes here.
+      </p>
+      <div class="tags">
+        <span class="tag">Tag</span>
+      </div>
+      <div class="links">
+        <a href="#">Code</a>
+      </div>
+    </div>
+  </div>
+  <div class="placeholder-note">Placeholder — add, edit, or remove project cards as needed.</div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-links">
+    <a href="mailto:zrudnic1@jh.edu"><!-- TODO: your email -->Email</a>
+    <a href="https://github.com/zrudnick">GitHub</a>
+    <!-- TODO: add LinkedIn, Twitter/X, Google Scholar, etc. as needed -->
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Zoe Catherine Rudnick. Built with GitHub Pages.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
