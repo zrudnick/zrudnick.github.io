@@ -6,6 +6,7 @@
   --accent2: #a8532c;
   --card-bg: #ffffff;
   --border: #e3e1da;
+  --heading: #5b4f45;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,18 +18,20 @@
     --accent2: #c87845;
     --card-bg: #251f1a;
     --border: #3a3129;
+    --heading: #d3c4b1;
   }
 }
 
 * { box-sizing: border-box; }
+
+h1, h2 { color: var(--heading); font-weight: 600; }
 html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: "Fraunces", Georgia, "Times New Roman", serif;
-  font-variation-settings: "WONK" 0;
+  font-family: "Literata", Georgia, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.65;
 }
